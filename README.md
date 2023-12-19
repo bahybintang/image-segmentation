@@ -1,7 +1,7 @@
-# IMPROVED WATERSHED ALGORITHM FOR IMAGE SEGMENTATION OF LOCAL INDONESIAN FRUIT
-This repo contains the implementation of the paper "IMPROVED WATERSHED ALGORITHM FOR IMAGE SEGMENTATION OF LOCAL INDONESIAN FRUIT" by Muhammad Bintang Bahy, Nur Rahmat Dwi Riyanto, and Muhammad Zain Fawwaz Nuruddin Siswantoro.
+# PENGEMBANGAN ALGORITMA WATERSHED UNTUK SEGMENTASI CITRA BUAH LOKAL INDONESIA
+"Repositori ini berisi implementasi dari makalah "PENGEMBANGAN ALGORITMA WATERSHED UNTUK SEGMENTASI CITRA BUAH LOKAL INDONESIA" oleh Muhammad Bintang Bahy, Nur Rahmat Dwi Riyanto, dan Muhammad Zain Fawwaz Nuruddin Siswantoro.
 
-## Project Structure
+## Struktur Direktori
 ```bash
 ├── datasets
 │   ├── ambarella041.JPG
@@ -28,7 +28,13 @@ This repo contains the implementation of the paper "IMPROVED WATERSHED ALGORITHM
 ```
 
 ## Dataset
-Dataset was taken from University of Surabaya-Indonesia Fruit Image Data Set 3000 (Ubaya-IFDS3000). Full dataset you can ask to the owner of the dataset.
+Dataset diambil dari University of Surabaya-Indonesia Fruit Image Data Set 3000 (Ubaya-IFDS3000). Anda dapat meminta dataset lengkap kepada pemilik dataset.
 
-### Dataset Processing
-The data taken from Ubaya-IFDS3000 is in the form of a folder containing 3000 images of fruit. The data is then processed using the python programming language to produce a dataset in the form of a folder containing 3000 images of fruit with a various background color. We picked 16 images from those 3000 images. We do manual segmentation on those 16 images using label-studio (https://labelstud.io/). The result of the manual segmentation is then used as a reference for the segmentation results of the Improved Watershed Algorithm.
+### Pemrosesan Dataset
+Data yang diambil dari Ubaya-IFDS3000 berupa folder yang berisi 3000 gambar buah. Data tersebut kemudian diolah menggunakan bahasa pemrograman Python untuk menghasilkan dataset berupa folder yang berisi 3000 gambar buah dengan berbagai warna latar belakang. Kami memilih 16 gambar dari 3000 gambar tersebut. Kami melakukan segmentasi manual pada 16 gambar tersebut menggunakan label-studio (https://labelstud.io/). Hasil segmentasi manual tersebut kemudian digunakan sebagai referensi untuk hasil segmentasi dari Improved Watershed Algorithm.
+
+## Improved Watershed Algorithm
+![Improved Watershed Algorithm](/images/improved_watershed.png)
+
+## Hasil Segmentasi
+![Hasil Segmentasi](/images/segmentation_results.png)
